@@ -1,0 +1,31 @@
+Data Set Information:
+
+
+The Daphnet Freezing of Gait Dataset is a dataset devised to benchmark automatic methods to recognize gait freeze from wearable acceleration sensors placed on legs and hip. 
+
+The dataset was recorded in the lab with emphasis on generating many freeze events. Users performed there kinds of tasks: straight line walking, walking with numerous turns, and finally a more realistic activity of daily living (ADL) task, where users went into different rooms while fetching coffee, opening doors, etc. 
+
+This dataset is the result of a collaboration between the Laboratory for Gait and Neurodynamics, Tel Aviv Sourasky Medical Center, Israel and the Wearable Computing Laboratory, ETH Zurich, Switzerland. Recordings were run at the Tel Aviv Sourasky Medical Center in 2008. The study was approved by the local Human Subjects Review Committee, and was performed in accordance with the ethical standards of the Declaration of Helsinki. 
+
+
+Attribute Information:
+
+
+Each file comprises the data in a matrix format, with one line per sample, and one column per channel. The channels are as follows: 
+Time of sample in millisecond 
+Ankle (shank) acceleration - horizontal forward acceleration [mg] 
+Ankle (shank) acceleration - vertical [mg] 
+Ankle (shank) acceleration - horizontal lateral [mg] 
+Upper leg (thigh) acceleration - horizontal forward acceleration [mg] 
+Upper leg (thigh) acceleration - vertical [mg] 
+Upper leg (thigh) acceleration - horizontal lateral [mg] 
+Trunk acceleration - horizontal forward acceleration [mg] 
+Trunk acceleration - vertical [mg] 
+Trunk acceleration - horizontal lateral [mg] 
+Annotation [0, 1, or 2] 
+
+The meaning of the annotations are as follows: 
+0: not part of the experiment. For instance the sensors are installed on the user or the user is performing activities unrelated to the experimental protocol, such as debriefing 
+1: experiment, no freeze (can be any of stand, walk, turn) 
+2: freeze 
+
